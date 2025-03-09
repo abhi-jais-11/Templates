@@ -1,0 +1,140 @@
+@import './_var.css';
+@import './_reset.css';
+@import './_utils.css';
+
+
+/* 
+------------------------------------
+
+          HEADER SECTION
+
+------------------------------------
+
+*/
+header {
+    background-image: url('../img/contact-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75dvh;
+    padding: 5px 0;
+
+}
+
+.navbar-brand {
+    font-size: var(--h3-font);
+    font-weight: var(--font-bold);
+    color: var(--black);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: var(--black);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--primary-dark);
+}
+
+.active {
+    color: var(--primary-dark) !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.navbar-toggler-icon {
+    width: 36px;
+    color: var(--primary-dark) !important;
+}
+
+/* 
+  ------------------------------------
+  
+          CONTACT SECTION -> BANNER SECTION
+  
+  ------------------------------------
+  
+  */
+.contact-banner {
+    padding-top: 60px;
+}
+
+.contact-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* 
+  ------------------------------------
+  
+          CONTACT US
+  
+  ------------------------------------
+  
+  */
+  .contact-us{
+    padding: 120px 0;
+  }
+
+  .form-control{
+    border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -ms-border-radius: 0 !important;
+    -o-border-radius: 0 !important;
+    padding: 14px 12px;
+    background-color: inherit;
+    resize: none;
+}
+.form-control:focus{
+    border-color: var(--primary-dark) !important;
+}
+
+.icontext >span a{
+    color: var(--primary-light);
+    margin-left: 5px;
+}
+.icontext >span a:hover{
+    color: var(--primary-dark);
+}
+.icon:hover >img{
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+.s-icon:hover >a img{
+    cursor: pointer;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}

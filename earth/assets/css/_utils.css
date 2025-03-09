@@ -1,0 +1,69 @@
+/* 
+------------------------------------
+
+          UTILITY CLASSES
+
+------------------------------------
+*/
+.btn-main {
+    
+    background-color: var(--primary-light);
+    color: var(--gray);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: var(--font-bold);
+    letter-spacing: 1px;
+    padding: 13px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 1px;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+    transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function);
+
+    -webkit-transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function);
+
+    -moz-transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function);
+
+    -ms-transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function);
+
+    -o-transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function);
+}
+
+.btn-main:hover {
+    background-color: var(--primary-dark);
+    color: var(--white);
+}
+
+.td-none {
+    text-decoration: none !important;
+}
+
+
+
+/* 
+  ------------------------------------
+  
+            TYPOGRAPHY 
+  
+  ------------------------------------
+  */
+h1 {
+    font-size: var(--h1-font);
+    font-weight: var(--font-bold);
+    line-height: 3rem !important;
+    color: var(--primary-dark);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+h3 {
+    font-size: var(--h2-font);
+    font-weight: var(--font-bold);
+    line-height: 3rem !important;
+    color: var(--primary-light);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
