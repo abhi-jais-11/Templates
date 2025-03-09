@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="description"
+      content="E-shop is the best online store for all your shopping needs. Find amazing products at unbeatable prices. Shop now!"
+    />
+    <meta
+      name="keywords"
+      content="E-shop, online shopping, best deals, shop online, ecommerce, products, sale"
+    />
+    <meta name="author" content="Abhinav Jaiswal" />
+
+    <!-- Open Graph meta tags for social media sharing -->
+    <meta
+      property="og:title"
+      content="E-shop - Your Ultimate Shopping Destination"
+    />
+    <meta
+      property="og:description"
+      content="Discover amazing deals and shop for your favorite products on E-shop. Fast delivery and secure payments."
+    />
+    <!-- Title of the webpage -->
+    <title>E-shop - Best Online Shopping Experience</title>
+
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- FontAwesome 6.2.0 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="container mx-auto bg-red">
+        <div class="logo">
+          <a href="" class="navbar-brand"><span class="mark">E</span>-Shop</a>
+          <div
+            onclick="document.getElementById('main_nav').classList.toggle('show')"
+          >
+            <span class="icon"><i class="fas fa-bars fa-1x"></i></span>
+          </div>
+        </div>
+
+        <div class="main__nav" id="main_nav">
+          <div class="link__wrapper">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Shop</a></li>
+              <li><a href="#" class="active">Products</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class="icon__wrapper">
+            <div class="serach">
+              <input type="text" placeholder="Search..." />
+              <span><i class="fas fa-search"></i></span>
+            </div>
+            <div class="icon-btn">
+              <span class="far fa-heart"></span>
+              <span><i class="fas fa-shopping-cart"></i></span>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- hero -->
+      <section class="hero__section">
+        <div class="container mx-auto __wrapper">
+          <div class="hero__content">
+            <h2>Discover Now Latest Collection</h2>
+            <h1 style="margin-top: 20px">Spring Collection</h1>
+            <button href="#" class="btn" style="margin-top: 34px">
+              Shop Now
+            </button>
+          </div>
+          <div class="hero__img">
+            <img src="./assets/img/img.jpg" alt="Hero Image" class="hero_img" />
+          </div>
+        </div>
+      </section>
+      <!-- new -->
+      <section class="product__section new">
+        <div class="container mx-auto">
+          <div class="section__title">
+            <span class="section_icon"><i class="fas fa-fire"></i></span>
+            <h2>New Arrivals</h2>
+          </div>
+          <div class="product__wrapper">
+            <div class="product__item">
+              <img
+                src="./assets/img/img-7.webp"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>Asian Shoes</h4>
+                <span>&#8377; 999.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+            <div class="product__item">
+              <img
+                src="./assets/img/img-6.webp"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>T-shirt Men</h4>
+                <span>&#8377; 199.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+            <div class="product__item">
+              <img
+                src="./assets/img/watch.jpg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>Smart Watch</h4>
+                <span>&#8377; 1399.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+            <div class="product__item">
+              <img
+                src="./assets/img/goggle.webp"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>Pink Sunglass</h4>
+                <span>&#8377; 79.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- offers -->
+      <section class="offer__section">
+        <div class="container mx-auto">
+          <div class="offer__wrapper">
+            <div class="offer_left">
+              <div class="off_content">
+                <h3>
+                  Mid Season <br />
+                  cloths Up <br />
+                  To 50% Off
+                </h3>
+                <a href="#" class="btn">Shop Now</a>
+              </div>
+            </div>
+            <div class="offer_right">
+              <div class="off_content">
+                <h3>
+                  Exclusive Offer <br />
+                  HandBag Up <br />
+                  To 30% Off
+                </h3>
+                <a href="#" class="btn">Shop Now</a>
+              </div>
+              <div class="off_img">
+                <img
+                  src="./assets/img/bag.webp"
+                  alt="Offer Image"
+                  class="offer_img"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- popular -->
+      <section class="product__section popular">
+        <div class="container mx-auto">
+          <div class="section__title">
+            <span class="section_icon"><i class="fas fa-fire"></i></span>
+            <h2>Popular Products</h2>
+          </div>
+          <div class="product__wrapper">
+            <div class="product__item">
+              <img
+                src="./assets/img/sweter.jpg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>Winter Cloths</h4>
+                <span>&#8377; 599.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+            <div class="product__item">
+              <img
+                src="./assets/img/shirt.webp"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>T-Shirt</h4>
+                <span>&#8377; 399.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+            <div class="product__item">
+              <img
+                src="./assets/img/shoes.jpg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>Shoes</h4>
+                <span>&#8377; 599.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+
+            <div class="product__item">
+              <img
+                src="./assets/img/bag.jpg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <h4>SkyBag</h4>
+                <span>&#8377; 899.99</span>
+                <a class="product-btn"
+                  ><span class="product-cart"
+                    ><i class="fa fa-shopping-cart"></i></span
+                  >Add
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- subscribe -->
+      <section class="subscribe__section">
+        <div class="container mx-auto">
+          <div class="subscribe__wrapper">
+            <h1>Subscribe to Our Newsletter</h1>
+            <blockquote>
+              <p>Stay updated with our latest news and offers.</p>
+              <p>We hate spam too, so we'll never share your email address.</p>
+            </blockquote>
+            <form action="#">
+              <input type="text" placeholder="Enter your email address" />
+              <button type="submit" class="btn sub-btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- blogs -->
+      <section class="product__section popular">
+        <div class="container mx-auto">
+          <div class="section__title">
+            <span class="section_icon"><i class="fas fa-fire"></i></span>
+            <h2>Our Latest Blogs</h2>
+          </div>
+          <div class="product__wrapper">
+            <div class="product__item w-full" style="padding: 0; width: 250px">
+              <img
+                src="./assets/img/img-4.jpeg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <a href="" class="blog-link">
+                  PurseBlog publishes daily editorial..
+                </a>
+              </div>
+            </div>
+            <div class="product__item w-full" style="padding: 0; width: 250px">
+              <img
+                src="./assets/img/bag.jpg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <a href="" class="blog-link">
+                  PurseBlog publishes daily editorial..
+                </a>
+              </div>
+            </div>
+            <div class="product__item w-full" style="padding: 0; width: 250px">
+              <img
+                src="./assets/img/img2.webp"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <a href="" class="blog-link">
+                  Find all the f tips you need on Sunglass blog...
+                </a>
+              </div>
+            </div>
+            <div class="product__item w-full" style="padding: 0; width: 250px">
+              <img
+                src="./assets/img/img-9.jpeg"
+                alt="Product Image"
+                class="product-img"
+              />
+              <div class="product__content">
+                <a href="" class="blog-link">
+                  Locket brings fashion to your ...
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container mx-auto">
+        <div class="footer_wrapper">
+          <div class="company_detail">
+            <div class="logo">
+              <a href="" class="navbar-brand" style="text-transform: uppercase"
+                ><span class="mark">E</span>-Shop</a
+              >
+            </div>
+            <p style="margin-top: 15px; text-align: start">
+              E-Shop is a creative and stylish e-commerce website specializing
+              in handmade accessories.
+            </p>
+          </div>
+          <div class="contact_wrapper">
+            <div>
+              <h3>Contact Us</h3>
+              <a href="#"><i class="fas fa-envelope"></i> info@e-shop.com</a>
+              <a href="#"><i class="fas fa-phone"></i> +123 456 7890</a>
+              <a href="#"
+                ><i class="fas fa-location"></i> 123 Main St, City, State,
+                Zip</a
+              >
+            </div>
+          </div>
+          <div class="social__icons">
+            <div>
+              <h3>Social Links</h3>
+              <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+              <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+              <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p>&copy; 2025 E-Shop. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
