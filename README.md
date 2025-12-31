@@ -36,5 +36,4 @@ https://shop-web-app.netlify.app/
 
 ---
 
-## 📂 Project Structure
 
