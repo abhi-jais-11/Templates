@@ -24,7 +24,7 @@ This website is suitable for **educational, environmental awareness, or portfoli
 ## 🌐 Live Demo
 
 🔗 **View Live Website:**  
-https://imaginative-tiramisu-a2106d.netlify.app/
+https://nature-and-earth.netlify.app/
 
 ---
 # 3.📱Mobile Accessories 
@@ -32,7 +32,7 @@ https://imaginative-tiramisu-a2106d.netlify.app/
 A modern, responsive **mobile accessories e-commerce landing page** built using **HTML5** and **Tailwind CSS**, featuring mobile back covers, tempered glass products, and a clean UI optimized for performance and responsiveness.
 
 🌐 **Live Demo:**  
-https://effortless-taiyaki-d5eb36.netlify.app/
+https://e-mobile-online.netlify.app/
 
 ---
 ## 🚀Features 
