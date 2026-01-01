@@ -10,30 +10,63 @@ E-Shop is a modern, responsive e-commerce website frontend built using **HTML5**
 🔗 **View Live Website:**  
 https://shop-web-app.netlify.app/
 
-> Replace `your-username` with your actual GitHub username after deploying.
+---
+
+# 2.🌍 EARTH – Endless Potential Website
+
+EARTH is a modern, responsive informational website focused on **Earth, nature, environment, and science**.  
+The project presents clean UI sections such as Home, Services, About, and Contact, built using **HTML5**, **CSS3**, and **Bootstrap 5**.
+
+This website is suitable for **educational, environmental awareness, or portfolio projects**.
 
 ---
 
-## 🌟 Features
+## 🌐 Live Demo
 
-- Responsive navigation bar with mobile toggle
-- Hero section highlighting seasonal collections
-- New Arrivals & Popular Products sections
-- Special offers and discounts banners
-- Newsletter subscription form
-- Blog preview section
-- Footer with contact details and social media links
-- SEO-friendly meta tags
-- Font Awesome icons integration
+🔗 **View Live Website:**  
+https://imaginative-tiramisu-a2106d.netlify.app/
+
+---
+## 🚀Features 
+
+- 📱 **Fully Responsive Design**  
+  Optimized for mobile, tablet, and desktop using Bootstrap 5.
+
+- 🧭 **Reusable Navigation Bar**  
+  Clean, consistent header with smooth navigation across pages.
+
+- 🎯 **Hero / Banner Section**  
+  Eye-catching landing section with heading, subheading, and call-to-action.
+
+- 🧩 **Modular Section Layouts**  
+  Reusable sections such as Services, About, and Contact.
+
+- 🎨 **Custom Styling with CSS3**  
+  Centralized styles for easy customization and scalability.
+
+- ⚡ **Lightweight & Fast Loading**  
+  Optimized assets for better performance.
+
+- 🧠 **Bootstrap Components**  
+  Cards, grids, buttons, navbar, and responsive utilities.
+
+- 🖱️ **Basic Interactivity**  
+  JavaScript-powered Bootstrap features like collapse, toggles, and buttons.
+
+- 🌐 **Cross-Browser Compatibility**  
+  Works smoothly on all modern browsers.
+
+- 🚀 **Easy Deployment**  
+  Hosted on Netlify with simple drag-and-drop or Git-based deployment.
 
 ---
 
-## 🧰 Technologies Used
+## 🛠️ Technologies Used
 
-- **HTML5**
-- **CSS3**
-- **Font Awesome 6**
+- **HTML5** – Page structure  
+- **CSS3** – Custom styling  
+- **Bootstrap 5** – Responsive layout & components  
+- **JavaScript** – Bootstrap interactivity  
+- **Netlify** – Hosting & deployment  
 
 ---
-
-
