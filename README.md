@@ -27,6 +27,14 @@ This website is suitable for **educational, environmental awareness, or portfoli
 https://imaginative-tiramisu-a2106d.netlify.app/
 
 ---
+# 3.📱Mobile Accessories Landing Page
+
+A modern, responsive **mobile accessories e-commerce landing page** built using **HTML5** and **Tailwind CSS**, featuring mobile back covers, tempered glass products, and a clean UI optimized for performance and responsiveness.
+
+🌐 **Live Demo:**  
+https://effortless-taiyaki-d5eb36.netlify.app/
+
+---
 ## 🚀Features 
 
 - 📱 **Fully Responsive Design**  
@@ -65,7 +73,8 @@ https://imaginative-tiramisu-a2106d.netlify.app/
 
 - **HTML5** – Page structure  
 - **CSS3** – Custom styling  
-- **Bootstrap 5** – Responsive layout & components  
+- **Bootstrap 5** – Responsive layout & components
+- **Tailwind** - Responsive layout & components
 - **JavaScript** – Bootstrap interactivity  
 - **Netlify** – Hosting & deployment  
 
