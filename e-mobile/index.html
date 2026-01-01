@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <!-- FontAwesome 6.2.0 CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  
+  <!-- (Optional) Use CSS or JS implementation -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+    integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  
+<script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .card-wrapper::-webkit-scrollbar {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-white sticky top-0 w-full py-3 shadow-sm z-50">
+    <nav class="flex lg:justify-between item-start lg:items-center lg:flex-row flex-col container md:px-16 px-4">
+      <div class="flex justify-between md:justify-center items-center">
+        <a href="">
+          <img src="../assets/img/logo.png" alt="" />
+        </a>
+        <span class="md:hidden block" id="btn"><i class="fa fa-bars text-xl pr-2 text-[red]"></i></span>
+      </div>
+      <div class="hidden md:block" id="menu">
+        <div class="flex md:justify-between md:flex-row flex-col mt-4 lg:mt-0 md:items-center md:space-x-12">
+          <div>
+            <ul
+              class="p-0 m-0 flex md:flex-row flex-col lg:space-x-12 md:space-x-10 item-center space-y-4 md:space-y-0">
+              <li>
+                <a href="./index.html" class="md:text-md font-semibold hover:text-[red] text-[red]">Home</a>
+              </li>
+              <li>
+                <a href="./shop.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">Shop All</a>
+              </li>
+              <li>
+                <a href="./blogs.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">Blog</a>
+              </li>
+              <li>
+                <a href="./about.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">About</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex gap-x-5 items-center">
+            <form action="" class="w-10/12">
+              <div class="bg-gray-100 rounded-sm flex justify-between space-x-2 items-center mt-3 md:mt-0 p-2">
+                <input type="text" class="border-0 outline-none caret-[red] bg-inherit placeholder:text-sm"
+                  placeholder="Search Product.." />
+                <i class="fa fa-search hover:cursor-pointer"></i>
+              </div>
+            </form>
+            <a href="./register.html" class="inline-block text-2xl" title="Register">
+              👤
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container md:px-16 px-4">
+    <section class="grid md:grid-cols-3">
+      <article class="lg:col-span-2 col-span-12  md:p-16 mt-5">
+        <h2 class="text-3xl font-bold mb-3">Mobile</h2>
+        <h1 class="md:text-6xl text-4xl font-bold text-[red]">Backcover</h1>
+        <h1 class="md:text-6xl text-4xl font-bold text-[red] mt-2 mb-12">
+          Tempered Glass
+        </h1>
+        <a href=""
+          class="px-6 py-2 text-white bg-[red] rounded-xl hover:bg-red-700 transition-all duration-300 ease-in">
+          Show all
+        </a>
+      </article>
+      <figure class=" lg:col-span-1 col-span-12 p-5   mx-auto mt-10 md:mt-0">
+        <img src="../assets/img/hero.png" alt=" w-full " />
+      </figure>
+    </section>
+
+    <!-- card -->
+    <section class="card-wrapper flex justify-start overflow-x-scroll space-x-5 py-16">
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-1.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 13 pro - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-2.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">Samsung s23+ - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-3.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 14 - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-4.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 13 pro - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-5.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 13 pro - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section class="pt-12">
+      <div class="flex items-center flex-col space-y-2">
+        <div class="h-14 bg-[red] w-4 rounded-t-full rounded-b-full"></div>
+        <span class="text-lg font-semibold">About us</span>
+      </div>
+      <div class="py-10 flex item-center flex-col">
+        <div class="lg:text-center mx-auto lg:w-10/12 w-full mb-12">
+          <h2 class="md:text-4xl text-2xl text-[red] font-bold leadimg-[3rem] trackimg-wider">
+            If you're lookimg for a premium Quality Tempered Glass, or
+            Back-cover for your Device.
+          </h2>
+          <p class="mt-5 text-gray-700 text-lg trackimg-wider leadimg-[2rem]">
+            We're here to help you find the perfect solution that meets your
+            every need. Contact us today and let us guide you through the best
+            options for your device.
+          </p>
+        </div>
+      </div>
+
+      <div class="mt-7 bg-slate-800 p-0.5">
+        <img src="../assets/img/about.png" alt="" class="w-full md:h-72 object-cover" />
+      </div>
+    </section>
+
+    <!-- WHY CHOOSE US -->
+    <section class="py-16">
+      <div class="flex items-center flex-col space-y-2">
+        <div class="h-14 bg-[red] w-4 rounded-t-full rounded-b-full"></div>
+        <span class="text-lg font-semibold">Why Choose Us</span>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10 py-16">
+        <div
+          class="flex items-center space-y-5 flex-col hover:shadow-2xl py-10 hover:border-[red] border rounded-md cursor-pointer">
+          <img src="../assets/img/car.png" alt="" class="mx-auto h-[60px] w-[60px] object-contain" />
+          <h3 class="text-3xl font-bold">Fast Delivery</h3>
+          <p class="text-gray-700 text-sm text-center w-[75%]">
+            We deliver products within 24 hours. No need to wait for weeks for
+            deliveries.
+          </p>
+        </div>
+
+        <div
+          class="flex items-center space-y-5 flex-col hover:shadow-2xl py-10 hover:border-[red] border rounded-md cursor-pointer">
+          <img src="../assets/img/money.png" alt="" class="mx-auto h-[60px] w-[60px] object-contain" />
+          <h3 class="text-3xl font-bold">Cheap Price</h3>
+          <p class="text-gray-700 text-sm text-center w-[75%]">
+            We deliver products within 24 hours. No need to wait for weeks for
+            deliveries.
+          </p>
+        </div>
+        <div
+          class="flex items-center space-y-5 flex-col hover:shadow-2xl py-10 hover:border-[red] border rounded-md cursor-pointer">
+          <img src="../assets/img/tai.png" alt="" class="mx-auto h-[60px] w-[60px] object-contain" />
+          <h3 class="text-3xl font-bold">Premium Quality</h3>
+          <p class="text-gray-700 text-sm text-center w-[75%]">
+            We deliver products within 24 hours. No need to wait for weeks for
+            deliveries.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pt-10 pb-16 bg-gray-100">
+    <section class="container md:px-16 px-4">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
+        <div class="flex justify-center items-center flex-col">
+          <img src="../assets/img/logo.png" alt="" class="mix-blend-darken w-fit" />
+          <p class="text-sm leading-5 tracking-wider w[75%] mx-auto text-center">
+            Our mission is to provide premium quality tempered glass and
+            back-covers for your devices.
+          </p>
+        </div>
+
+        <div class="flex justify-center items-center gap-y-4 flex-col mt-4">
+          <h3 class="text-lg font-bold tracking-wider">Contact Us</h3>
+          <div class="text-center">
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><i class="fa fa-envelope"></i> <a
+                href="">xyz@gamil.com</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><i class="fa fa-phone"></i> <a href="">+91
+                899663636</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline">
+              <i class="fa fa-location "></i>
+              123 Main St, City State, Zip
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-y-4 flex-col mt-4">
+          <h3 class="text-lg font-bold tracking-wider">Useful Links</h3>
+          <div class="text-center">
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href="">Shoap all</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href="">About Us</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href="">Contact Us</a></p>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-y-4 flex-col mt-4">
+          <h3 class="text-lg font-bold tracking-wider">Social Media</h3>
+          <div>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href=""> <i class="fab fa-whatsapp"></i>
+                WhatSapp</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href=""> <i class="fab fa-instagram"></i>
+                InstaGram</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href=""> <i class="fab fa-facebook"></i>
+                FaceBook</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+  <script src="./main.js"></script>
+</body>
+
+</html>

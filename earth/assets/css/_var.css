@@ -1,0 +1,38 @@
+/* 
+------------------------------------
+
+          CUSTOM VARIABLES
+
+------------------------------------
+
+*/
+
+
+
+:root {
+
+    --primary-light: #73aa46;
+    --primary-dark: #2c541d;
+    --black: #000000;
+    --gray:--black;
+    --white: #efefef;
+
+    --h1-font: 3rem;
+    --h2-font: 1.9rem;
+    --h3-font: 1.5rem;
+
+    --p-font: 1rem;
+    --link-color: #74a84a;
+
+
+    --font-medium: 500;
+    --font-bold: 600;
+    --font-normal: 400;
+
+    --transition-duration: 0.3s;
+    --transition-timing-function: ease-in-out;
+    --transition-property: background-color, color;
+
+
+
+}

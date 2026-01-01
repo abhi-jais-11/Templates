@@ -1,0 +1,137 @@
+@import './_var.css';
+@import './_reset.css';
+@import './_utils.css';
+
+
+/* 
+------------------------------------
+
+          HEADER SECTION
+
+------------------------------------
+
+*/
+header {
+    background-image: url('../img/services-banner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 75dvh;
+    padding: 5px 0;
+
+}
+
+.navbar-brand {
+    font-size: var(--h3-font);
+    font-weight: var(--font-bold);
+    color: var(--black);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: inherit;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.nav-link {
+    color: var(--black);
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: var(--font-bold);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: var(--primary-dark);
+}
+
+.active {
+    color: var(--primary-dark) !important;
+}
+
+.navbar-toggler {
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0 !important;
+}
+
+.navbar-toggler-icon {
+    width: 36px;
+    color: var(--primary-dark) !important;
+}
+
+/* 
+  ------------------------------------
+  
+          Service SECTION -> BANNER SECTION
+  
+  ------------------------------------
+  
+  */
+.service-banner {
+    padding-top: 60px;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* 
+------------------------------------
+
+        Service  SECTION 
+
+------------------------------------
+
+*/
+.service-section {
+    padding: 80px 0;
+}
+.service-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    color: var(--black);
+    font-size: var(--p-font);
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+
+
+/* 
+------------------------------------
+
+        CONTACT SECTION 
+
+------------------------------------
+
+*/
+.contact-section{
+    padding: 70px 0;
+    min-height: 70vh;
+    background-image: url(../img/talk-to-us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+
+

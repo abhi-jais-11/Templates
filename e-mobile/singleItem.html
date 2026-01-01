@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Single Item</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .card-wrapper::-webkit-scrollbar {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="bg-white sticky top-0 w-full py-3 shadow-sm z-50">
+    <nav class="flex lg:justify-between item-start lg:items-center lg:flex-row flex-col container md:px-16 px-4">
+      <div class="flex justify-between md:justify-center items-center">
+        <a href="">
+          <img src="../assets/img/logo.png" alt="" />
+        </a>
+        <span class="md:hidden block" id="btn"><i class="fa fa-bars text-xl pr-2 text-[red]"></i></span>
+      </div>
+      <div class="hidden md:block" id="menu">
+        <div class="flex md:justify-between md:flex-row flex-col mt-4 lg:mt-0 md:items-center md:space-x-12">
+          <div>
+            <ul
+              class="p-0 m-0 flex md:flex-row flex-col lg:space-x-12 md:space-x-10 item-center space-y-4 md:space-y-0">
+              <li>
+                <a href="./index.html" class="md:text-md font-semibold hover:text-[red] text-[red]">Home</a>
+              </li>
+              <li>
+                <a href="./shop.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">Shop All</a>
+              </li>
+              <li>
+                <a href="./blogs.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">Blog</a>
+              </li>
+              <li>
+                <a href="./about.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">About</a>
+              </li>
+              <li>
+                <a href="./contact.html" class="md:text-md text-zinc-800 font-semibold hover:text-[red]">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex gap-x-5 items-center">
+            <form action="" class="w-10/12">
+              <div class="bg-gray-100 rounded-sm flex justify-between space-x-2 items-center mt-3 md:mt-0 p-2">
+                <input type="text" class="border-0 outline-none caret-[red] bg-inherit placeholder:text-sm"
+                  placeholder="Search Product.." />
+                <i class="fa fa-search hover:cursor-pointer"></i>
+              </div>
+            </form>
+            <a href="./register.html" class="inline-block text-2xl" title="Register">
+              👤
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container md:px-16 px-4">
+    <section class="py-16">
+      <div class="flex justify-between lg:flex-row flex-col">
+        <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+          <div class="p-2 px-2 bg-gray-200 rounded-md">
+            <figure>
+              <img src="../assets/img/img-12.png" alt="" class="w-72" />
+            </figure>
+          </div>
+        </div>
+        <div class="lg:px-10 pt-5 md:pt-0">
+          <h1 class="text-2xl font-bold tracking-wide leading-10 text-[red]">
+            Samsung Galaxy S21 sillicon Cover
+          </h1>
+          <p></p>
+          <p class="lg:mt-6 mt-4">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+            dignissimos quae deleniti quos iure laborum dolore. Nulla expedita
+            eaque quas earum cupiditate. Officiis, minus hic saepe animi
+            itaque dolor a corrupti quam nihil laborum, sint quae? Iste quis
+            illum numquam obcaecati praesentium. Alias similique, quaerat
+            animi, dolorem accusantium quo placeat ipsam vero natus soluta
+            unde accusamus facilis illo veniam perspiciatis debitis, sunt
+            modi. Vero commodi, eveniet laboriosam veritatis, quam fuga
+            pariatur quos consequatur amet quibusdam aspernatur veniam, magni
+            accusamus! Distinctio itaque laborum nobis odit fuga, temporibus
+            <br />
+            <strong class="text-slate-700 pt-3 inline-flex">
+              <small> Contact US :89338383883</small>
+            </strong>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- card -->
+    <hgroup class="mt-7">
+      <h1 class="text-3xl font-bold tracking-wider leading-10 text-[red]">
+        Similar Products
+      </h1>
+      <p class="text-lg font-medium text-[gray] mt-4">
+        Discover similar products
+      </p>
+    </hgroup>
+    <section class="card-wrapper flex justify-start overflow-x-scroll space-x-5 py-12">
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-1.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 13 pro - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-2.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">Samsung s23+ - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-3.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 14 - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-4.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 13 pro - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+      <div class="cards shrink-0 hover:cursor-pointer" onclick="window.location.href='./singleItem.html'">
+        <div class="p-2 px-1 bg-gray-200 rounded-md">
+          <div
+            class="rounded-full shadow-md px-4 py-2 text-sm w-1/4 inline-flex items-center justify-center bg-gray-300 m-2">
+            <span class="text-[red]">Sale !</span>
+          </div>
+          <figure>
+            <img src="../assets/img/img-5.png" alt="" class="w-72" />
+          </figure>
+        </div>
+        <div class="flex flex-col space-y-1 pt-3">
+          <span class="font-semibold text-gray-700">I phone 13 pro - Transparent
+          </span>
+          <span class="font-semibold text-gray-700"> LKR 499</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pt-10 pb-16 bg-gray-100">
+    <section class="container md:px-16 px-4">
+      <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-10">
+        <div class="flex justify-center items-center flex-col">
+          <img src="../assets/img/logo.png" alt="" class="mix-blend-darken w-fit" />
+          <p class="text-sm leading-5 tracking-wider w[75%] mx-auto text-center">
+            Our mission is to provide premium quality tempered glass and
+            back-covers for your devices.
+          </p>
+        </div>
+
+        <div class="flex justify-center items-center gap-y-4 flex-col mt-4">
+          <h3 class="text-lg font-bold tracking-wider">Contact Us</h3>
+          <div class="text-center">
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><i class="fa fa-envelope"></i> <a
+                href="">xyz@gamil.com</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><i class="fa fa-phone"></i> <a href="">+91
+                899663636</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline">
+              <i class="fa fa-location"></i>
+              123 Main St, City State, Zip
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-y-4 flex-col mt-4">
+          <h3 class="text-lg font-bold tracking-wider">Useful Links</h3>
+          <div class="text-center">
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href="">Shoap all</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href="">About Us</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href="">Contact Us</a></p>
+          </div>
+        </div>
+
+        <div class="flex justify-center items-center gap-y-4 flex-col mt-4">
+          <h3 class="text-lg font-bold tracking-wider">Social Media</h3>
+          <div>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href=""> <i class="fab fa-whatsapp"></i>
+                WhatSapp</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href=""> <i class="fab fa-instagram"></i>
+                InstaGram</a></p>
+            <p class="text-sm mb-2 hover:text-[red] hover:underline"><a href=""> <i class="fab fa-facebook"></i>
+                FaceBook</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
